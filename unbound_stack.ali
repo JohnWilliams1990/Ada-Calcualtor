@@ -1,0 +1,39 @@
+V "GNAT Lib v5"
+A -gnatwa
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV SPARK_05
+
+U unbound_stack%b	unbound_stack.adb	4fe4b5a1 NE OO PK GE
+
+U unbound_stack%s	unbound_stack.ads	c4ed9ba6 BN EE NE OO PK GE
+
+D system.ads		20141031112220 0f63a871 system%s
+D unbound_stack.ads	20171028090706 c4ed9ba6 unbound_stack%s
+D unbound_stack.adb	20171028090730 8b092e07 unbound_stack%b
+X 2 unbound_stack.ads
+4+6 Item_Type 8r30 9r30 10r30 3|4r14 8r30 18r30 23r30
+5k9*Unbound_Stack 4z6 13E9 15l5 15e18 3|2b14 40l5 40t18
+6P9*Stack 8r55 9r55 10r55 11r27 14c9 3|5r14 8r55 18r55 23r55 35r27
+7X4*Underflow 3|11r16 26r16
+8U14*Top 8<19 8=41 3|8b14 15l8 15t11
+8*19 Item{4+6} 3|8b19 13m10
+8p41 From{6P9} 3|8b41 10r19 13r18
+9U14*Push 9>20 9=41 3|18b14 21l8 21t12
+9*20 Item{4+6} 3|18b20 20r33
+9p41 Onto{6P9} 3|18b41 20m7 20r47
+10U14*Pop 10<19 10=41 3|23b14 31l8 31t11
+10*19 Item{4+6} 3|23b19 28m10
+10p41 From{6P9} 3|23b41 25r19 28r18 29m10 29r18
+11V13*Is_Empty{boolean} 11>23 3|10s10 25s10 35b13 38l8 38t16
+11p23 S{6P9} 3|35b23 37r14
+13R9 Cell 14r25 3|3c9 6e14 20r19
+X 3 unbound_stack.adb
+4*7 Item{2|4+6} 13r23 20m25 28r23
+5p7 Next{2|6P9} 20m39 29r23
+
